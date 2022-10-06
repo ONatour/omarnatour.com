@@ -1,5 +1,9 @@
 body{
-	
+	background-color:#333333;
 	background-image: url("../images/backgroundsvg/Mountains.svg");
+	background-repeat: no-repeat;
+	background-size: fill;
+	background-position-x: center;
 	height:2000px;
+	width:100%;
 }
