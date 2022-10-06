@@ -7,3 +7,12 @@ body{
 	height:2000px;
 	width:100%;
 }
+
+@font-face{
+	font-family: "palanquinExtraLight";
+	src: url("palanquin-extralight.ttf");
+}
+
+h1{
+	font-family: "palanquinExtraLight";
+}
