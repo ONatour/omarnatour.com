@@ -44,10 +44,10 @@ function App() {
               ></div>
             </ParallaxLayer>
 
-            <ParallaxLayer offset ={1.10}>
+            <ParallaxLayer offset ={1} speed ={0.85}>
               <div style ={{
                 backgroundColor: "#4a6965",
-                height:"170%",
+                height:"200%",
                 width: "1920px",
                 margin: "auto",
                 padding: "0"
