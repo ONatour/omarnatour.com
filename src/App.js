@@ -5,9 +5,10 @@ import './App.css';
 
 function App() {
   return(
+
     <div id ="main">
 
-      <Parallax pages={2}>
+      <Parallax pages={2.25}>
             <ParallaxLayer offset={0} speed={0}>
               <div id = "pl"
                 style={{
@@ -36,33 +37,35 @@ function App() {
               ></div>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={0} speed={0.75}>
+            <ParallaxLayer offset={0} speed={0.85}>
               <div id = "pl"
                 style={{
                 backgroundImage: `url(${require("./svg/mt3.png")})`, }}
               ></div>
             </ParallaxLayer>
-            
-            <ParallaxLayer Layer offset ={0.05} speed ={-0.35}>
-              <div>
-                <p style ={{fontSize: "45px", color: "white", textAlign: "center", }}>Omar Natour </p>
-              </div>
-            </ParallaxLayer>
 
-            <ParallaxLayer Layer offset ={1.15}>
+            <ParallaxLayer offset ={1.10}>
               <div style ={{
                 backgroundColor: "#4a6965",
-                height:"1500px",
+                height:"170%",
                 width: "1920px",
                 margin: "auto",
                 padding: "0"
               }}>
               </div>
             </ParallaxLayer>
-            
+
+            <ParallaxLayer offset ={0.075} speed ={-0.2}>
+              <div id ="container">
+                <p style ={{fontSize: "65px", color: "white", textAlign: "center"}}>Omar Natour </p>
+                <a href = "https://linkedin.com/in/onatour"><img src = {require('./svg/linkedin.png')}></img></a>
+		            <a href = "https://github.com/onatour"><img src = {require('./svg/github.png')}></img></a>
+              </div>
+            </ParallaxLayer>
       </Parallax>
 
     </div>
+
   )
 }
 

@@ -1,21 +1,39 @@
 body{
     margin:auto;
-    background-color: #333333;;
-    
-    
-    
+    background-color: #333333;
 }
-
-
 
 ::-webkit-scrollbar {
     display: none;
 }
 
+@font-face{
+	font-family: "palanquinExtraLight";
+	src: url("palanquin-extralight.ttf");
+}
+
+p{
+    margin:0;
+}
+
+img{
+    height:100px;
+    width:100px;
+    margin:auto;
+    display: inline-block;
+    padding:15px;
+}
+
+#container{
+    width:75%;
+    margin:auto;
+    text-align: center;
+    white-space: nowrap;
+}
 
 #main{
-    font-family: 'Trebuchet MS', sans-serif;
-
+    font-family: 'palanquinExtraLight';
+    
     
 }
 
