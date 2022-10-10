@@ -7,7 +7,7 @@ function App() {
   return(
     <div id ="main">
 
-      <Parallax pages={4}>
+      <Parallax pages={2}>
             <ParallaxLayer offset={0} speed={0}>
               <div id = "pl"
                 style={{
@@ -29,7 +29,7 @@ function App() {
               ></div>
             </ParallaxLayer>
 
-            <ParallaxLayer offset={0} speed={0.35}>
+            <ParallaxLayer offset={0} speed={0.45}>
               <div id = "pl"
                 style={{
                 backgroundImage: `url(${require("./svg/mt2.png")})`, }}
@@ -43,22 +43,23 @@ function App() {
               ></div>
             </ParallaxLayer>
             
-            <ParallaxLayer Layer offset ={0.25} speed ={-0.35}>
+            <ParallaxLayer Layer offset ={0.05} speed ={-0.35}>
               <div>
                 <p style ={{fontSize: "45px", color: "white", textAlign: "center", }}>Omar Natour </p>
               </div>
             </ParallaxLayer>
 
-            <ParallaxLayer Layer offset ={1.5}>
+            <ParallaxLayer Layer offset ={1.15}>
               <div style ={{
                 backgroundColor: "#4a6965",
-                height:"2000px",
+                height:"1500px",
                 width: "1920px",
                 margin: "auto",
                 padding: "0"
               }}>
               </div>
             </ParallaxLayer>
+            
       </Parallax>
 
     </div>
