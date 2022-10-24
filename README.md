@@ -1,1 +1,2 @@
-Hi this is a repository for the code of my home page https://omarnatour.com
+This is the homepage for my website https://omarnatour.com
+I've built it using react-spring parallax!
